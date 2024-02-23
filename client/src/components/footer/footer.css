@@ -1,0 +1,33 @@
+.footer-text {
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.1em;
+}
+.footer-text a {
+    margin-left: 5px;
+}
+.heart-icon {
+    margin: 0px 4px 2.5px 4px;
+}
+.social {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* width: 100vw; */
+}
+
+@media screen and (max-width: 568px) {
+    footer .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }

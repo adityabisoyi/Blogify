@@ -1,0 +1,96 @@
+.login {
+  position: relative;
+  margin-bottom: 50px;
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login .container form {
+  border-radius: 10px;
+}
+.login-page {
+  height: 63.5vh;
+}
+.login .container {
+  width: 100%;
+}
+.login .text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+}
+.login .text h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.login .text h1 {
+  font-size: 40px;
+}
+.login form {
+  font-size: 1em;
+}
+.login form label {
+  font-size: 1em;
+  margin: 10px 0;
+}
+.login form input {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 6px;
+  padding: 0.7em;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+.login form button {
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+
+.already-holder {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  font-size: 1.1em;
+}
+.already-holder a {
+  margin-left: 5px;
+}
+.already-holder a:hover {
+  text-decoration: underline;
+}
+.error-msg {
+  width: 100%;
+  background: red;
+  color: white;
+  padding: 0.7em 1em;
+  text-align: center;
+  border-radius: 5px;
+}
+.forgot-pass a:hover {
+  cursor: pointer;
+  color: rgb(225, 75, 75);
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 912px) {
+  .login {
+    margin-top: 4em;
+  }
+  .login form {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 586px) {
+  .login {
+    height: 66vh;
+  }
+  .login form {
+    width: 90%;
+    padding: 1em;
+  }
+}

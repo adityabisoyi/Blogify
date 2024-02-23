@@ -1,0 +1,87 @@
+.singlePage {
+  padding: 30px 0;
+  background: #fff;
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+.singlePage .right {
+  margin-top: 30px;
+}
+.singlePage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-size: contain;
+}
+.singlePage h1 {
+  font-size: 1.5em;
+  font-weight: 500;
+  font-weight: 700;
+}
+.singlePage p {
+  margin: 20px 0;
+  font-size: 0.95em;
+  line-height: 2;
+  text-transform: capitalize;
+}
+.singlePage .buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.singlePage a {
+  color: white;
+}
+.singlePage .button {
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 0.7em 1.5em;
+  /* width: 100%; */
+}
+.singlePage .button:nth-child(1) {
+  background: #10ac84;
+}
+.singlePage .button:nth-child(2) {
+  background: #ee5253;
+}
+.flex-disp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 2em;
+}
+.desc-block {
+  text-align: justify;
+  /* font-size: 0.7em; */
+}
+.singlePage .author-name {
+  font-weight: bold;
+}
+.singlePage .author-name:hover {
+  color: #ee5253;
+}
+
+@media screen and (max-width: 1024px) {
+  .singlePage {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .singlePage {
+    width: 95%;
+  }
+  .flex-disp {
+    flex-direction: column;
+  }
+  .singlePage .buttons {
+    width: 100%;
+    justify-content: left;
+    align-items: flex-start;
+    margin-top: 1em;
+  }
+}

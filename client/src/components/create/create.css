@@ -1,0 +1,77 @@
+.newPost {
+  margin: 60px 0;
+}
+.newPost .container {
+  max-width: 50%;
+}
+.newPost h1 {
+  text-align: center;
+  margin-bottom: 0.7em;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.newPost form {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  border: none;
+}
+.newPost form input, select {
+  border: 1px solid #b7b4b4;
+  /* border-radius: 6px; */
+  color: #212121;
+  font-size: 15px;
+  min-height: 44px;
+  padding: 0 1em;
+  transition: border-color 0.2s ease;
+  width: 100%;
+  margin-bottom: 1.5em;
+  border-radius: 5px;
+}
+.newPost form select:active {
+  border: 1px solid #b7b4b4;
+}
+.newPost .thumbnail-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  min-height: none;
+  padding: 0  ;
+  margin-bottom: 1em;
+  border-radius: 0;
+}
+.newPost .text-area {
+  margin-bottom: 2em;
+  border-radius: 15px;
+}
+.ql-editor {
+  height: 15em !important;
+}
+.error-msg {
+  width: 100%;
+  background: red;
+  color: white;
+  padding: 0.7em 1em;
+  text-align: center;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 980px) {
+  .newPost .container {
+    max-width: 100% !important;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .newPost .container {
+    max-width: 100% !important;
+    width: 92%;
+    padding: 1em 0.8em;
+  }
+  form button {
+    font-size: 1.3em;
+  }
+}
