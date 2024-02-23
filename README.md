@@ -2,6 +2,13 @@
 
 MERN Blogify is a full-stack blogging platform built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It provides a seamless experience for users to create, manage, and publish blog posts. This project also integrates AWS S3 for storing images and media files securely.
 
+## Technology
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
 ## Features
 
 - User authentication: Register, login, and manage user profiles securely.
@@ -9,12 +16,7 @@ MERN Blogify is a full-stack blogging platform built using the MERN (MongoDB, Ex
 - Content management: Create, edit, and manage blog posts with Markdown support for rich formatting.
 - AWS S3 integration: Seamless integration with AWS S3 bucket for storing and serving images and media files.
 - Responsive design: Mobile-friendly user interface built with React.js for optimal viewing experience.
-- Commenting system: Engage with readers through built-in commenting system for blog posts.
-- Search functionality: Easily find relevant content using powerful search functionality.
-- Social sharing: Share blog posts across social media platforms to increase audience reach.
-- Analytics dashboard: Track key metrics such as page views, user engagement, and traffic sources.
-- Continuous deployment: Automated deployment pipeline using AWS CodePipeline or GitHub Actions.
-- Custom domain support: Map custom domains for branding and customization.
+- Author dashboard: View all your blogs to make changes.
 
 ## Setup
 
@@ -54,15 +56,16 @@ mongodb://localhost:27017
 > If you are on windows 11 then replace the `localhost` with `127.0.0.1`.
 - You can get the S3 bucket access key and secret key after selecting the generate access token.
 Refer this [youtube video](https://youtu.be/eQAIojcArRY?si=R6nHn95qEpBjtt29) for creating the S3 bucket and getting the keys.
-<br/>
-- For the node mailer to work you need to add your Email address and add app password. For the app password you can follow these [steps](https://support.google.com/mail/answer/185833?hl=en).
+- For the node mailer to work you need to add your Email address and add app password. For the app password you can follow these [steps](https://support.google.com/mail/answer/185833?hl=en) .
 
 ### 4. Setup the client-side environment variables
 
 ```bash
 REACT_APP_BASE_URL = "YOUR_SERVER_URL"
 ```
-- If you are running the server on your local machine the url will be: (Replace the PORT_NUMBER with the PORT number that you have used above.)
+- If you are running the server on your local machine the url will be:
+> [!Note]
+> Replace the PORT_NUMBER with the PORT number that you have used above.
 ```bash
 http://localhost:[PORT_NUMBER]/api
 ```
@@ -90,4 +93,4 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 
 This project is licensed under the [MIT License](LICENSE).
 
-### If you are using this for any of your college projects please give a :star:
+### Please give a :star: if you like the project.
