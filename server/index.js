@@ -10,7 +10,7 @@ const { notFound, errorHandler } = require('./middlewares/error.middleware');
 const app = express();
 app.use(express.json({extended: true}))
 app.use(express.urlencoded({extended: true}))
-app.use(cors({credentials: true, origin: "http://localhost:3000"}))
+app.use(cors({credentials: true, origin: process.env.FRONTEND_URL}))
 connectDB(process.env.MONGO_URI)
 
 
