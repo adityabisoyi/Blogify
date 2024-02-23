@@ -2,6 +2,10 @@
 
 MERN Blogify is a full-stack blogging platform built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It provides a seamless experience for users to create, manage, and publish blog posts. This project also integrates AWS S3 for storing images and media files securely.
 
+## Live Demo
+
+[Blogify](https://blogify-frontend-r7eu.onrender.com/)
+
 ## Technology
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
