@@ -47,6 +47,11 @@ BUCKET_ACCESS_KEY = "S3_BUCKET_ACCESS_KEY"
 BUCKET_SECRET_KEY = "S3_BUCKET_SECRET_KEY"
 USER_EMAIL = "EMAIL_ADDRESS"
 APP_PASSWORD = "APP_PASSWORD"
+FRONTEND_URL = "FRONTEND_URL"
+```
+- If you are running the react app on local machine then the frontend url will be
+```
+http://localhost:3000
 ```
 - For the mongodb uri you can either use the mongodb atlas connection string or if you are using local mongodb database then the url will be
 ```
